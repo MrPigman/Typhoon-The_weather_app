@@ -6,7 +6,7 @@
 
 <button onclick="getLocation()">Try It</button>
 
-<p id="demo"></p>
+<p id="demo"> wadafaq</p>
 
 <script>
     var x = document.getElementById("demo");
@@ -20,7 +20,7 @@
     }
 
     function showPosition(position) {
-        x.innerHTML = "https://api.openweathermap.org/data/2.5/onecall?lat=%22+ position.coords.latitude +"&lon=" + position.coords.longitude + "&exclude=current,hourly,minutely,alerts&units=metric&appid=dce4bc664fe42d8c7f23ca178dab6e7e";
+        x.innerHTML = "https://api.openweathermap.org/data/2.5/onecall?lat=" + position.coords.latitude +"&lon=" + position.coords.longitude + "&exclude=current,hourly,minutely,alerts&units=metric&appid=dce4bc664fe42d8c7f23ca178dab6e7e";
     }
 </script>
 
